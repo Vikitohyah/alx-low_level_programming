@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
- * main point
+ * main - main function to generate a random number
  *
- *Return: Always 0
+ * Return: Always 0
  *
  */
 int main(void)
