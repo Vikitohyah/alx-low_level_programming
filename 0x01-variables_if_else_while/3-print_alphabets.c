@@ -7,7 +7,6 @@
  * Return: Always 0
  */
 int main(void)
-
 {
 	int alph = 'a';
 	int ALPH = 'A';
@@ -23,6 +22,6 @@ int main(void)
 		ALPH++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 
 }
