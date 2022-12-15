@@ -3,7 +3,7 @@
 /**
  * print_line - draws a straight line in the terminal
  * @n: number of times character is printed
- * Return: \n if n is 0 or less
+ * Return: 0
  */
 void print_line(int n)
 {
@@ -13,7 +13,7 @@ void print_line(int n)
 	{
 		for (a = 0; a <= n; i++)
 		{
-			_putchar(70);
+			_putchar(95);
 		}
 		_putchar('\n');
 	}
