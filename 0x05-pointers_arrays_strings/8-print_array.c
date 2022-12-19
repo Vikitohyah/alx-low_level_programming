@@ -3,17 +3,16 @@
 /**
  * print_array - function that prints n elements of an array of integers
  * @a: The array
- * @n: number of array elements to print
- * Return: void.
+ * @n: number of array element to print
  */
 void print_array(int *a, int n)
 {
-	int i;
+	int b;
 
-	for (i = 0; i < n; i++)
+	for (b = 0; b < n; b++)
 	{
-		printf("%d", a[i]);
-		if (i + 1 < n)
+		printf("%d", a[b]);
+		if (b + 1 < n)
 			printf(", ");
 	}
 	printf("⧵n");
