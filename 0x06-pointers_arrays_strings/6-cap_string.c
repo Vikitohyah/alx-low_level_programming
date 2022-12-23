@@ -8,6 +8,7 @@
 char *cap_string(char *x)
 {
 	char spc[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+
 	int len = 13;
 	int a = 0, i;
 
@@ -20,7 +21,7 @@ char *cap_string(char *x)
 				x[a] = x[a] - 32;
 			i++;
 		}
-		a++
+		a++;
 	}
 	return (x);
 }
