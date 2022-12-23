@@ -20,7 +20,7 @@ char *rot13(char *s)
 		{
 			if (s[a] == alphabet[b])
 			{
-				s[a] == rot13key[b];
+				s[a] = rot13key[b];
 				break;
 			}
 		}
