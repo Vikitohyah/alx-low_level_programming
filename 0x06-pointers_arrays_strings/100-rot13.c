@@ -10,7 +10,7 @@ char *rot13(char *s)
 	int a;
 	int b;
 
-	char alphabet[] = {'A', 'B', 'C', 'D', 'E', 'F',
+	char alphabet[52] = {'A', 'B', 'C', 'D', 'E', 'F',
 		'G', 'H', 'I', 'J', 'K', 'L',
 		'M', 'N', 'O', 'P', 'Q', 'R',
 		'S', 'T', 'U', 'V', 'W', 'X',
@@ -19,7 +19,8 @@ char *rot13(char *s)
 		'k', 'l', 'm', 'n', 'o', 'p',
 		'q', 'r', 's', 't', 'u', 'v',
 		'w', 'x', 'y', 'z'};
-	char rot13[] = {'N', 'O', 'P', 'Q', 'R', 'S',
+
+	char rot13key[52] = {'N', 'O', 'P', 'Q', 'R', 'S',
 		'T', 'U', 'V', 'W', 'X', 'Y',
 		'Z', 'A', 'B', 'C', 'D', 'E',
 		'F', 'G', 'H', 'I', 'J', 'K',
@@ -35,7 +36,7 @@ char *rot13(char *s)
 		{
 			if (s[a] == alphabet[b])
 			{
-				s[a] == rot13[b];
+				s[a] == rot13key[b];
 				break;
 			}
 		}
