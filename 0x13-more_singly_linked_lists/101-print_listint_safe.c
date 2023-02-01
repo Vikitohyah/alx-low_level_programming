@@ -35,7 +35,7 @@ size_t looped_listint_len(const listint_t *head)
 				snakes = snakes->next;
 				ladders = ladders->next;
 			}
-			ladders = snakes->next;
+			snakes = snakes->next;
 			while (snakes != ladders)
 			{
 				nodes++;
